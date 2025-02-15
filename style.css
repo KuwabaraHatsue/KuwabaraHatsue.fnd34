@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    margin-top: 10px;
+}
+
+/* テーブルのカラム幅を調整 */
+th:nth-child(1), td:nth-child(1) { /* 日付 */
+    width: 120px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+th:nth-child(2), td:nth-child(2) { /* 内容 */
+    width: auto; /* 残りの幅を全て使う */
+    background-color: whitesmoke;
+}
+
+th:nth-child(3), td:nth-child(3) { /* 削除 */
+    width: 120px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+
+button {
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color:grey;
+}
+
+
