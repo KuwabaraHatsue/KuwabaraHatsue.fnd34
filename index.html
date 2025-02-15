@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メモ帳</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>メモ帳</h1>
+    <input type="date" id="dateInput">
+    <input type="text" id="contentInput" placeholder="メモを入力">
+    <button onclick="addMemo()">追加</button>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>日付</th>
+                <th>内容</th>
+                <th>削除</th>
+            </tr>
+        </thead>
+        <tbody id="memoList"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
